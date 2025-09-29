@@ -2,10 +2,11 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Flutter Chrome (Dev)",
+      "name": "🚀 GM Biblioteca - Chrome",
       "request": "launch",
       "type": "dart",
       "deviceId": "chrome",
+      "program": "lib/main.dart",
       "toolArgs": [
         "--dart-define=SUPABASE_URL=https://psenlnmxlgpsvrghxxly.supabase.co",
         "--dart-define=SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBzZW5sbm14bGdwc3ZyZ2h4eGx5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg1MzM0MzAsImV4cCI6MjA3NDEwOTQzMH0.tn-e9H7CmnvoV1nnLxFmILAF9MZC91rCxlXqupTNg6Y",
@@ -13,7 +14,7 @@
       ]
     },
     {
-      "name": "Flutter Android (Dev)",
+      "name": "📱 GM Biblioteca - Android (Debug)",
       "request": "launch",
       "type": "dart",
       "deviceId": "android",
@@ -21,12 +22,11 @@
       "program": "lib/main.dart",
       "toolArgs": [
         "--dart-define=SUPABASE_URL=https://psenlnmxlgpsvrghxxly.supabase.co",
-        "--dart-define=SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBzZW5sbm14bGdwc3ZyZ2h4eGx5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg1MzM0MzAsImV4cCI6MjA3NDEwOTQzMH0.tn-e9H7CmnvoV1nnLxFmILAF9MZC91rCxlXqupTNg6Y",
-        "--flavor=dev"
+        "--dart-define=SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBzZW5sbm14bGdwc3ZyZ2h4eGx5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg1MzM0MzAsImV4cCI6MjA3NDEwOTQzMH0.tn-e9H7CmnvoV1nnLxFmILAF9MZC91rCxlXqupTNg6Y"
       ]
     },
     {
-      "name": "Flutter Android (Prod)",
+      "name": "📱 GM Biblioteca - Android (Release)",
       "request": "launch",
       "type": "dart",
       "deviceId": "android",
@@ -34,8 +34,29 @@
       "program": "lib/main.dart",
       "toolArgs": [
         "--dart-define=SUPABASE_URL=https://psenlnmxlgpsvrghxxly.supabase.co",
-        "--dart-define=SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBzZW5sbm14bGdwc3ZyZ2h4eGx5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg1MzM0MzAsImV4cCI6MjA3NDEwOTQzMH0.tn-e9H7CmnvoV1nnLxFmILAF9MZC91rCxlXqupTNg6Y",
-        "--flavor=prod"
+        "--dart-define=SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBzZW5sbm14bGdwc3ZyZ2h4eGx5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg1MzM0MzAsImV4cCI6MjA3NDEwOTQzMH0.tn-e9H7CmnvoV1nnLxFmILAF9MZC91rCxlXqupTNg6Y"
+      ]
+    },
+    {
+      "name": "🖥️ GM Biblioteca - Windows",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "windows",
+      "program": "lib/main.dart",
+      "toolArgs": [
+        "--dart-define=SUPABASE_URL=https://psenlnmxlgpsvrghxxly.supabase.co",
+        "--dart-define=SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBzZW5sbm14bGdwc3ZyZ2h4eGx5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg1MzM0MzAsImV4cCI6MjA3NDEwOTQzMH0.tn-e9H7CmnvoV1nnLxFmILAF9MZC91rCxlXqupTNg6Y"
+      ]
+    },
+    {
+      "name": "🍎 GM Biblioteca - iOS",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "ios",
+      "program": "lib/main.dart",
+      "toolArgs": [
+        "--dart-define=SUPABASE_URL=https://psenlnmxlgpsvrghxxly.supabase.co",
+        "--dart-define=SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBzZW5sbm14bGdwc3ZyZ2h4eGx5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg1MzM0MzAsImV4cCI6MjA3NDEwOTQzMH0.tn-e9H7CmnvoV1nnLxFmILAF9MZC91rCxlXqupTNg6Y"
       ]
     }
   ]
